@@ -3,7 +3,7 @@
         {
             "title": "HTML",
             "desc": "HyperText Markup Language is the number one language of the web.",
-            "image": "../public/images/itemImages/item-html.webp",
+            "image": "html.webp",
             "price": 19.99,
             "tags": [
                 "web",
@@ -13,7 +13,7 @@
         {
             "title": "CSS",
             "desc": "Cascading Stylesheets describes how your websites should look.",
-            "image": "image URL",
+            "image": "css.webp",
             "price": 19.99,
             "tags": [
                 "web",
@@ -23,13 +23,25 @@
         {
             "title": "JavaScript",
             "desc": "One of the most popular programming languages in the world, JavaScript is the primary language of the web.",
-            "image": "image URL",
+            "image": "javascript.webp",
             "price": 49.99,
             "tags": [
                 "web",
                 "mobile",
                 "desktop",
                 "frontend",
+                "backend"
+            ]
+        },
+        {
+            "title": "Python",
+            "desc": "General purpose programming language most popularly used in data science.",
+            "image": "python.webp",
+            "price": 49.99,
+            "tags": [
+                "web",
+                "mobile",
+                "desktop",
                 "backend"
             ]
         }

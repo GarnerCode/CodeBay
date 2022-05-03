@@ -16,10 +16,10 @@ const Home: NextPage = () => {
       <main>
         <section id="index_landing">
           <div className="landing-bg">
-            <h1>Develop the Future</h1>
+            <h1 className="landing-head">Develop the Future</h1>
           </div>
           <div className="landing-categ">
-            <h2 className="landing-categ-head">What's your target platform?</h2>
+            <h2 className="landing-categ-head">What do you want to build?</h2>
             <div className="landing-categ-item categ-item-web">
               <AiOutlineGlobal />
               <p>Web</p>
@@ -36,17 +36,25 @@ const Home: NextPage = () => {
         </section>
         <section id="index_featured">
           <div className="featured-section">
-            <h2>Popular Languages</h2>
-            <hr />
-            <ItemCard 
+            <h2 className="featured-head">Popular Languages</h2>
+            <ItemCard // HTML
               title={itemData.languages[0].title}
               price={itemData.languages[0].price}
               image={itemData.languages[0].image}
             />
+            <ItemCard // JavaScript
+              title={itemData.languages[2].title}
+              price={itemData.languages[2].price}
+              image={itemData.languages[2].image}
+            />
+            <ItemCard // Python
+              title={itemData.languages[3].title}
+              price={itemData.languages[3].price}
+              image={itemData.languages[3].image}
+            />
           </div>
           <div className="featured-section">
-            <h2>Latest Frameworks</h2>
-            <hr />
+            <h2 className="featured-head">Latest Frameworks</h2>
           </div>
         </section>
       </main>
