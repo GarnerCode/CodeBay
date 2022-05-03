@@ -1,0 +1,73 @@
+{
+    "languages": [
+        {
+            "title": "HTML",
+            "desc": "HyperText Markup Language is the number one language of the web.",
+            "image": "../public/images/itemImages/item-html.webp",
+            "price": 19.99,
+            "tags": [
+                "web",
+                "frontend"
+            ]
+        },
+        {
+            "title": "CSS",
+            "desc": "Cascading Stylesheets describes how your websites should look.",
+            "image": "image URL",
+            "price": 19.99,
+            "tags": [
+                "web",
+                "frontend"
+            ]
+        },
+        {
+            "title": "JavaScript",
+            "desc": "One of the most popular programming languages in the world, JavaScript is the primary language of the web.",
+            "image": "image URL",
+            "price": 49.99,
+            "tags": [
+                "web",
+                "mobile",
+                "desktop",
+                "frontend",
+                "backend"
+            ]
+        }
+    ],
+    "frameworks": [
+        {
+            "title": "Angular",
+            "desc": "Developed by Google, Angular is an open-source front-end JavaScript framework for developing complex user interfaces.",
+            "image": "image URL",
+            "price": 299.99,
+            "tags": [
+                "web",
+                "frontend"
+            ]
+        },
+        {
+            "title": "Django",
+            "desc": "Django is an open-source back-end Python framework for quickly developing server-side code.",
+            "image": "image URL",
+            "price": 399.99,
+            "tags": [
+                "web",
+                "mobile",
+                "desktop",
+                "backend"
+            ]
+        }
+    ],
+    "libraries": [
+        {
+            "title": "React",
+            "desc": "Developed by Facebook, React is an open-source front-end JavaScript library for developing complex user interfaces.",
+            "image": "image URL",
+            "price": 299.99,
+            "tags": [
+                "web",
+                "frontend"
+            ]
+        }
+    ]
+}
