@@ -1,85 +1,64 @@
 {
-    "languages": [
-        {
-            "title": "HTML",
-            "desc": "HyperText Markup Language is the number one language of the web.",
-            "image": "html.webp",
-            "price": 19.99,
-            "tags": [
-                "web",
-                "frontend"
-            ]
-        },
-        {
-            "title": "CSS",
-            "desc": "Cascading Stylesheets describes how your websites should look.",
-            "image": "css.webp",
-            "price": 19.99,
-            "tags": [
-                "web",
-                "frontend"
-            ]
-        },
-        {
-            "title": "JavaScript",
-            "desc": "One of the most popular programming languages in the world, JavaScript is the primary language of the web.",
-            "image": "javascript.webp",
-            "price": 49.99,
-            "tags": [
-                "web",
-                "mobile",
-                "desktop",
-                "frontend",
-                "backend"
-            ]
-        },
-        {
-            "title": "Python",
-            "desc": "General purpose programming language most popularly used in data science.",
-            "image": "python.webp",
-            "price": 49.99,
-            "tags": [
-                "web",
-                "mobile",
-                "desktop",
-                "backend"
-            ]
-        }
-    ],
-    "frameworks": [
-        {
-            "title": "Angular",
-            "desc": "Developed by Google, Angular is an open-source front-end JavaScript framework for developing complex user interfaces.",
-            "image": "image URL",
-            "price": 299.99,
-            "tags": [
-                "web",
-                "frontend"
-            ]
-        },
-        {
-            "title": "Django",
-            "desc": "Django is an open-source back-end Python framework for quickly developing server-side code.",
-            "image": "image URL",
-            "price": 399.99,
-            "tags": [
-                "web",
-                "mobile",
-                "desktop",
-                "backend"
-            ]
-        }
-    ],
-    "libraries": [
-        {
-            "title": "React",
-            "desc": "Developed by Facebook, React is an open-source front-end JavaScript library for developing complex user interfaces.",
-            "image": "image URL",
-            "price": 299.99,
-            "tags": [
-                "web",
-                "frontend"
-            ]
-        }
-    ]
+    "html": {
+        "title": "HTML",
+        "desc": "HyperText Markup Language is the number one language of the web.",
+        "image": "html.webp",
+        "category": "language",
+        "tags": [
+            "language",
+            "web",
+            "frontend"
+        ]
+    },
+    "css": {
+        "title": "CSS",
+        "desc": "Cascading Stylesheets describes how your websites should look.",
+        "image": "css.webp",
+        "category": "language",
+        "tags": [
+            "language",
+            "web",
+            "mobile",
+            "desktop",
+            "frontend"
+        ]
+    },
+    "javascript": {
+        "title": "JavaScript",
+        "desc": "One of the most popular programming languages in the world, JavaScript is the primary language of the web.",
+        "image": "javascript.webp",
+        "category": "language",
+        "tags": [
+            "language",
+            "web",
+            "mobile",
+            "desktop",
+            "frontend",
+            "backend"
+        ]
+    },
+    "python": {
+        "title": "Python",
+        "desc": "A general-purpose programming language most widely used for data science.",
+        "image": "python.webp",
+        "category": "language",
+        "tags": [
+            "language",
+            "web",
+            "mobile",
+            "desktop",
+            "backend"
+        ]
+    },
+    "angular": {
+        "title": "Angular",
+        "desc": "Developed by Google, Angular is an open-source front-end JavaScript framework for developing complex user interfaces.",
+        "image": "angular.webp",
+        "category": "framework",
+        "tags": [
+            "framework",
+            "web",
+            "frontend"
+        ]
+    }
 }

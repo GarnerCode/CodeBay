@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>CodeBay</title>
-        <meta name="description" content="Concept e-commerce website selling programming languages and frameworks." />
+        <meta name="description" content="Passion project providing information on popular programming languages, frameworks, and libraries." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
             <h1 className="landing-head">Develop the Future</h1>
           </div>
           <div className="landing-categ">
-            <h2 className="landing-categ-head">What do you want to build?</h2>
+            <h2 className="landing-categ-head">Choose your platform</h2>
             <div className="landing-categ-item categ-item-web">
               <AiOutlineGlobal />
               <p>Web</p>
@@ -38,19 +38,19 @@ const Home: NextPage = () => {
           <div className="featured-section">
             <h2 className="featured-head">Popular Languages</h2>
             <ItemCard // HTML
-              title={itemData.languages[0].title}
-              price={itemData.languages[0].price}
-              image={itemData.languages[0].image}
+              title={itemData.html.title}
+              image={itemData.html.image}
+              category={itemData.html.category}
             />
             <ItemCard // JavaScript
-              title={itemData.languages[2].title}
-              price={itemData.languages[2].price}
-              image={itemData.languages[2].image}
+              title={itemData.javascript.title}
+              image={itemData.javascript.image}
+              category={itemData.javascript.category}
             />
             <ItemCard // Python
-              title={itemData.languages[3].title}
-              price={itemData.languages[3].price}
-              image={itemData.languages[3].image}
+              title={itemData.python.title}
+              image={itemData.python.image}
+              category={itemData.python.category}
             />
           </div>
           <div className="featured-section">

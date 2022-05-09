@@ -19,6 +19,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 hr {
   width: 20em;
   border: 1px solid #e0e0e0;
@@ -145,10 +149,14 @@ hr {
     padding-left: 1em;
     font-weight: bold;
   }
-  .item-card-price {
-    text-align: right;
-    padding-right: 1em;
-    font-style: italic;
+  .item-card-category {
+    text-align: center;
+    margin-right: 1em;
+    padding: 0.1em;
+    text-transform: capitalize;
+    background-color: #e0e0e0;
+    color: #131313;
+    border-radius: 10px;
   }
 }
 /*# sourceMappingURL=globals.css.map */
