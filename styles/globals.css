@@ -47,23 +47,13 @@ hr {
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
-    -ms-grid-rows: 0.5fr 1fr;
-        grid-template-rows: 0.5fr 1fr;
     width: 25em;
     margin: 0 auto;
     margin-top: -80px;
     text-align: center;
     border-radius: 10px;
-    -webkit-box-shadow: 2px 2px 5px black;
-            box-shadow: 2px 2px 5px black;
-  }
-  .landing-categ-head {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1/2;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;
-    grid-column: 1/4;
+    -webkit-box-shadow: 2px 2px 5px #080808;
+            box-shadow: 2px 2px 5px #080808;
   }
   .landing-categ-item {
     text-align: center;
@@ -126,8 +116,8 @@ hr {
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 0.1fr;
         grid-template-rows: 1fr 0.1fr;
-    -webkit-box-shadow: 2px 2px 5px black;
-            box-shadow: 2px 2px 5px black;
+    -webkit-box-shadow: 2px 2px 5px #080808;
+            box-shadow: 2px 2px 5px #080808;
     cursor: pointer;
     -webkit-transition: 0.1s all ease-in-out;
     transition: 0.1s all ease-in-out;
