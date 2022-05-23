@@ -56,8 +56,8 @@ hr {
     .landing-categ {
         background-color: $colorGray;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        width: 25em;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
         margin: 0 auto;
         margin-top: -80px;
         text-align: center;
@@ -69,8 +69,8 @@ hr {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 5em;
-        height: 5em;
+        width: 6em;
+        height: 6em;
         padding: 0.5em;
         margin: 1em auto;
         border-radius: $borderRadius;
@@ -87,7 +87,7 @@ hr {
             margin: 0 auto;
         }
         p {
-            margin: 0.5em;
+            margin: 0.5em 0;
             text-transform: uppercase;
         }
     }
@@ -115,10 +115,11 @@ hr {
     .ItemCard {
         background-color: $colorGray;
         width: 15em;
+        height: 15em;
         margin: 3em auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 0.1fr;
+        grid-template-rows: 2fr 1fr;
         box-shadow: $box-shadow;
         cursor: pointer;
         transition: $transition;
@@ -131,18 +132,65 @@ hr {
         grid-column: 1/3;
         grid-row: 1/2;
     }
+    .item-card-text {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     .item-card-title {
         padding-left: 1em;
         font-weight: bold;
+        height: 1.5em;
     }
     .item-card-category {
         text-align: center;
         margin-right: 1em;
         padding: 0.1em;
+        height: 1.5em;
         text-transform: capitalize;
         background-color: $colorWhite;
         color: $colorBlack;
         border-radius: $borderRadius;
+    }
 
+    // Item Page
+
+    .item-page-img {
+        width: 100vw;
+    }
+    .item-page-text {
+        padding: 0 2em;
+    }
+    .item-page-category {
+        text-align: center;
+        padding: 0.1em;
+        text-transform: capitalize;
+        background-color: $colorWhite;
+        color: $colorBlack;
+        border-radius: $borderRadius;
+        width: 8em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .landing-categ {
+        width: 25em;
+    }
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .item-page-img {
+        position: fixed;
+        z-index: -1;
+    }
+    .item-page-text {
+        background-color: $colorBlack;
+        position: absolute;
+        top: 30em;
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
     }
 }

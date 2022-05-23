@@ -1,0 +1,28 @@
+{
+    "angular": {
+        "id": "angular",
+        "title": "Angular",
+        "desc": "Front-end web framework developed by Google.",
+        "image": "angular.svg",
+        "category": "framework",
+        "link": "https://angular.io/",
+        "tags": [
+            "framework",
+            "javascript",
+            "frontend"
+        ]
+    },
+    "flutter": {
+        "id": "flutter",
+        "title": "Flutter",
+        "desc": "Front-end framework for developing cross-platform mobile applications.",
+        "image": "flutter.svg",
+        "category": "framework",
+        "link": "https://flutter.dev/",
+        "tags": [
+            "framework",
+            "dart",
+            "frontend"
+        ]
+    }
+}

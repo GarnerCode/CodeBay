@@ -3,9 +3,9 @@
         "id": "c",
         "title": "C",
         "desc": "A general-purpose programming language.",
-        "image": "c.webp",
+        "image": "c.svg",
         "category": "language",
-        "links": [
+        "link": [
             "https://docs.microsoft.com/en-us/cpp/c-language/?view=msvc-170",
             "https://www.learn-c.org/"
         ]
@@ -14,9 +14,9 @@
         "id": "cplus",
         "title": "C++",
         "desc": "A general-purpose object-oriented programming language.",
-        "image": "cplus.webp",
+        "image": "cplus.svg",
         "category": "language",
-        "links": [
+        "link": [
             "https://www.python.org/",
             "https://www.w3schools.com/python/"
         ]
@@ -25,20 +25,17 @@
         "id": "csharp",
         "title": "C#",
         "desc": "Developed by Microsoft, C# is an object-oriented general-purpose programming language",
-        "image": "csharp.webp",
+        "image": "csharp.svg",
         "category": "language",
-        "links": [
-            "https://www.python.org/",
-            "https://www.w3schools.com/python/"
-        ]
+        "link": "https://www.python.org/"
     },
     "css": {
         "id": "css",
         "title": "CSS",
         "desc": "Cascading Stylesheets describes how your websites should look.",
-        "image": "css.webp",
-        "category": "language",
-        "links": [
+        "image": "css.svg",
+        "category": "markup",
+        "link": [
             "https://www.w3schools.com/css/",
             "https://css-tricks.com/"
         ]
@@ -47,42 +44,33 @@
         "id": "dart",
         "title": "Dart",
         "desc": "Developed by Google, Dart is a general-purpose programming language.",
-        "image": "dart.webp",
+        "image": "dart.svg",
         "category": "language",
-        "links": [
-            "https://dart.dev/",
-            "https://www.raywenderlich.com/22685966-dart-basics"
-        ]
+        "link": "https://dart.dev/"
     },
     "go": {
         "id": "go",
         "title": "Go",
         "desc": "Developed by Google, Go is a general-purpose programming language.",
-        "image": "go.webp",
+        "image": "go.svg",
         "category": "language",
-        "links": [
-            "https://go.dev/",
-            "https://www.learn-c.org/"
-        ]
+        "link": "https://go.dev/"
     },
     "html": {
         "id": "html",
         "title": "HTML",
         "desc": "HyperText Markup Language is the number one language of the web.",
-        "image": "html.webp",
-        "category": "language",
-        "links": [
-            "https://html.com/",
-            "https://www.w3schools.com/html/"
-        ]
+        "image": "html.svg",
+        "category": "markup",
+        "link": "https://html.com/"
     },
     "java": {
         "id": "java",
         "title": "Java",
         "desc": "Java is a general-purpose object-oriented programming language with the motto 'write once, run anywhere.'",
-        "image": "java.webp",
+        "image": "java.svg",
         "category": "language",
-        "links": [
+        "link": [
             "https://www.python.org/",
             "https://www.w3schools.com/python/"
         ]
@@ -91,56 +79,41 @@
         "id": "javascript",
         "title": "JavaScript",
         "desc": "One of the most popular programming languages in the world, JavaScript is the primary language of the web.",
-        "image": "javascript.webp",
+        "image": "javascript.svg",
         "category": "language",
-        "links": [
-            "https://www.javascript.com/",
-            "https://www.w3schools.com/js/"
-        ]
+        "link": "https://www.javascript.com/"
     },
     "kotlin": {
         "id": "kotlin",
         "title": "Kotlin",
         "desc": "Developed by JetBrains, Kotlin is a general-purpose programming language, most popularly used for developing Android applications.",
-        "image": "kotlin.webp",
+        "image": "kotlin.svg",
         "category": "language",
-        "links": [
-            "https://kotlinlang.org/",
-            "https://www.w3schools.com/kotlin/index.php"
-        ]
+        "link": "https://kotlinlang.org/"
     },
     "php": {
         "id": "php",
         "title": "PHP",
         "desc": "A general-purpose scripting language used for developing dynamic websites.",
-        "image": "php.webp",
+        "image": "php.svg",
         "category": "language",
-        "links": [
-            "https://www.php.net/",
-            "https://www.w3schools.com/php/"
-        ]
+        "link": "https://www.php.net/"
     },
     "python": {
         "id": "python",
         "title": "Python",
         "desc": "A general-purpose programming language most widely used for data science.",
-        "image": "python.webp",
+        "image": "python.svg",
         "category": "language",
-        "links": [
-            "https://www.python.org/",
-            "https://www.w3schools.com/python/"
-        ]
+        "link": "https://www.python.org/"
     },
     "ruby": {
         "id": "ruby",
         "title": "Ruby",
         "desc": "Ruby is a general-purpose programming language.",
-        "image": "ruby.webp",
+        "image": "ruby.svg",
         "category": "language",
-        "links": [
-            "https://www.ruby-lang.org/en/",
-            "https://www.rubyguides.com/ruby-tutorial/"
-        ]
+        "link": "https://www.ruby-lang.org/en/"
     },
     "rust": {
         "id": "rust",
@@ -148,10 +121,7 @@
         "desc": "Rust is a general-purpose programming language.",
         "image": "rust.webp",
         "category": "language",
-        "links": [
-            "https://www.rust-lang.org/",
-            "https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/"
-        ]
+        "link": "https://www.rust-lang.org/"
     },
     "swift": {
         "id": "swift",
@@ -159,9 +129,6 @@
         "desc": "Developed by Apple, Swift is a general-purpose programming language, most commonly used for developing iOS applications.",
         "image": "swift.webp",
         "category": "language",
-        "links": [
-            "https://developer.apple.com/swift/",
-            "https://www.programiz.com/swift-programming"
-        ]
+        "link": "https://developer.apple.com/swift/"
     }
 }

@@ -1,0 +1,9 @@
+{
+    "react": {
+        "id": "react",
+        "title": "React",
+        "desc": "Front-end web framework developed by Facebook",
+        "image": "react.webp",
+        "category": "library"
+    }
+}
